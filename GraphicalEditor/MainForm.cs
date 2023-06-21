@@ -65,11 +65,29 @@ namespace ShapeEditor
         {
             if (e.Button == MouseButtons.Left && selectedShape != null)
             {
-                // Move the selected shape
-                int deltaX = e.Location.X - lastMousePosition.X;
-                int deltaY = e.Location.Y - lastMousePosition.Y;
-                selectedShape.Move(deltaX, deltaY);
+
+                if (rbResize.Checked)
+                {
+                    // Calculate the change in mouse position
+                    int deltaX = e.Location.X - lastMousePosition.X;
+                    int deltaY = e.Location.Y - lastMousePosition.Y;
+
+                    // Update the shape's bounds based on the change in mouse position
+                    selectedShape.Resize(deltaX, deltaY);
+                }
+                else if (rbMove.Checked)
+                {
+                    // Calculate the change in mouse position
+                    int deltaX = e.Location.X - lastMousePosition.X;
+                    int deltaY = e.Location.Y - lastMousePosition.Y;
+
+                    // Update the shape's position based on the change in mouse position
+                    selectedShape.Move(deltaX, deltaY);
+                }
+
+                // Update the last mouse position
                 lastMousePosition = e.Location;
+
                 Invalidate();
             }
         }
@@ -79,29 +97,6 @@ namespace ShapeEditor
             selectedShape = null;
         }
 
-        private void MainForm_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (selectedShape != null)
-            {
-                int sizeChange = 5; // Amount of size change for each key press
-                switch (e.KeyCode)
-                {
-                    case Keys.Left:
-                        selectedShape.Resize(-sizeChange, 0);
-                        break;
-                    case Keys.Right:
-                        selectedShape.Resize(sizeChange, 0);
-                        break;
-                    case Keys.Up:
-                        selectedShape.Resize(0, -sizeChange);
-                        break;
-                    case Keys.Down:
-                        selectedShape.Resize(0, sizeChange);
-                        break;
-                }
-                Invalidate();
-            }
-        }
     }
 
     // Base class for all shapes
