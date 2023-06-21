@@ -1,0 +1,9 @@
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\bin\Debug\GraphicalEditor.exe.config
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\bin\Debug\GraphicalEditor.exe
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\bin\Debug\GraphicalEditor.pdb
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\obj\Debug\ShapeEditor.MainForm.resources
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\obj\Debug\GraphicalEditor.Properties.Resources.resources
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\obj\Debug\GraphicalEditor.csproj.GenerateResource.cache
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\obj\Debug\GraphicalEditor.csproj.CoreCompileInputs.cache
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\obj\Debug\GraphicalEditor.exe
+C:\Users\elizz\OneDrive - iVention\Documenten\School\nhl\module4SoftwareEngineeringConcepts\graphicaleditor\GraphicalEditor\obj\Debug\GraphicalEditor.pdb
